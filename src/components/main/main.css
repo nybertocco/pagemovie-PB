@@ -1,0 +1,33 @@
+@media (max-width: 480px) {
+    main {
+        height: 90vh; 
+        display: block; 
+        padding: 10px;
+        background-color: rgb(26, 26, 26); 
+    }
+
+    main h2 {
+        margin-top: 10px;
+        color: #fff;
+        font-size: 2rem; 
+        height: auto;
+        text-align: center; 
+    }
+}
+
+@media (min-width: 481px) {
+    main {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(26, 26, 26);
+    }
+    
+    main h2 {
+        margin-top: 15px;
+        color: #fff;
+        display: inline-block;
+        font-size: 3.5rem;
+        height: 50px;
+    }
+}    
